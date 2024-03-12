@@ -29,7 +29,7 @@ SECRET_KEY = KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = DEV
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','library-dflpl.onrender.com','danielfajardolibrary.online','smtp.hostinger.com']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','library-dflpl.onrender.com','danielfajardolibrary.online','smtp.hostinger.com','.vercel.app']
 
 
 # Application definition
