@@ -3,6 +3,7 @@ version: '3.8'
 services:
   web:
     build: 
+      context: ./
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
@@ -14,6 +15,7 @@ services:
       - database
   database:
     build:
+      context: ./
       dockerfile: db.Dockerfile
     ports:
       - "5432:5432"
